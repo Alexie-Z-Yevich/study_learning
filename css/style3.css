@@ -1,0 +1,79 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#beb4a8;
+}
+.biaoti{
+	width:1250px;
+	height:70px;
+	margin:0 auto;
+	padding-left:200px;
+	padding-top:70px;
+	background:#beb4a8;
+	
+}
+.five{
+	width:1200px;
+	height:720px;
+	margin:0 auto;
+	border-bottom:3px solid white;
+}
+.five h2,.six h2{
+	text-align:center;
+	color:white;
+	line-height:100px;
+}
+.five video{
+	float:left;
+	width:792px;
+	height:485px;
+	margin-top:-55px;
+	overflow:hidden;
+	background:#beb4a8;
+}
+.five a{
+	float:left;
+	width:388px;
+	height:218px;
+	overflow:hidden;
+	display:inline-block;
+	margin:0 0 10px 10px;
+}
+.five a img{
+	transition:all 0.5s;
+}
+.five a:hover img{
+	transform:scale(1.2,1.2)
+}
+
+.duiqi video{
+	width:703px;
+	height:300px;
+}
+.shipin h2{
+	width:980px; 
+	line-height:100px;
+	margin:0 auto;
+	padding-left:200px;
+	color:#ffffff;
+}
+.shipin {
+	width:80%;
+	height:820px;
+	margin:0 auto;
+	background:#beb4a8;
+	border-bottom:3px solid white;
+}
+.duiqi{
+	padding-left:185px;
+}
+.last{
+	width:100%;
+	height:200px;
+	background:url(../images/di.jpg) no-repeat ;
+	color:white;
+	text-align:center;
+	line-height:200px;
+}

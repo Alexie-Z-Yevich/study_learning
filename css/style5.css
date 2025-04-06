@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.three{
+	margin:0 auto;
+	width:1176px;
+}
+.four{
+	margin:0 auto;
+	width:980px;
+	height:60px;
+}
+.four h1, .six h1{
+	color:white;
+	font-size:30px;
+	font-famliy:"宋体";
+	margin:0 auto;
+	width:120px;
+	line-height:60px;
+	padding-left:40px;	
+}
+
+.five{
+	margin:0 auto;
+	width:980px;
+	height:400px;
+	background:url(../images/zcbeijin2.jpg);
+}
+.five table{
+	margin:0 auto;
+	color:#5e5d5d;
+	font-size:18px;
+	font-famliy:"宋体";
+	padding-top:50px;
+	width:280px;
+	text-align:right;
+	line-height:55px;	
+}
+.five table input{
+	border:1px solid #5e5d5d;
+
+}
+.six{
+	margin:0 auto;
+	width:980px;
+	height:60px;
+	background:url(../images/pic01.jpg);
+	background-repeat:no-repeat;
+}
+.seven{
+	margin:0 auto;
+	width:980px;
+	height:600px;
+	background:url(../images/zcbeijin3.jpg);
+}
+.seven table{
+	margin:0 auto;
+	color:#5e5d5d;
+	font-size:18px;
+	font-famliy:"宋体";
+	padding-top:50px;
+	width:800px;
+	line-height:60px;
+	margin-left:300px;
+}
+.seven table #b{
+	margin:0 auto;
+	text-align:right;
+}
+.seven table .c{
+	margin:0 auto;
+	text-align:left;
+
+}
+.seven table select{
+	border:1px solid #5e5d5d;
+}
+.seven table select{
+	border:1px solid #5e5d5d;
+	color:#5e5d5d;
+}
+.seven table textarea{
+	border:1px solid #5e5d5d;
+	color:#5e5d5d;
+	text-indent:2em;
+	padding-top:10px;
+	width:300px;
+	height:150px;
+}
+.seven table .wanchen{
+	background:url(../images/button.png) no-repeat;
+	background-position: 0px 20px;
+	width:179px;
+	height:60px;
+	border:none;
+	padding-top:20px;
+	color:white;
+}
+.last{
+	width:100%;
+	height:200px;
+	background:url(../images/di.jpg) no-repeat ;
+	color:white;
+	text-align:center;
+	line-height:200px;
+}

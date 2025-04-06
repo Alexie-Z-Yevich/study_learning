@@ -1,0 +1,101 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	font-family:"xx";
+	src:url("../fonts/iconfont.ttf");
+	
+}
+body{
+	background:#beb4a8	
+}
+.one{
+	width:100%;
+	height:65px;
+	background:#beb4a8;
+}
+.one .nav,.two .navtwo{
+	width:80%;
+	margin:0 auto;
+}
+.one .nav ul li,.two .navtwo ul li{
+	float:left;
+}
+.one .left,.two .lefttwo{
+	float:left;
+}
+.one .right,.two .righttwo{
+	float:right;
+}
+.one .nav a{
+	width:100px;
+	height:65px;
+	text-align:center;
+	line-height:65px;
+	text-decoration:none;
+	display:inline-block;
+	color:white;
+	font-size:18px;
+}
+.nav a:hover{
+	width:100px;
+	height:65px;	
+	background:#a08a70;
+}
+.two{
+	width:100%;
+	height:60px;
+	background-color:rgba(255,255,255,0.5);
+	color:black;
+	position:absolute;
+	z-index:10;
+}
+.two .navtwo{
+	width:75%;
+	margin:0 auto;
+}
+.two .navtwo a{
+	width:120px;
+	height:60px;
+	text-align:center;
+	line-height:40px;
+	text-decoration:none;
+	display:inline-block;
+	color:black;
+	font-size:18px;
+}
+.two .lefttwo{
+	width:400px;
+	height:60px;
+	padding-top:12px;
+}
+.two .righttwo a{
+	width:40px;
+	height:40px;
+	padding-top:-10px;
+}
+.one .nav ul ,.two .navtwo ul{
+	list-style:none;
+}
+.righttwo{
+	font-family:"xx";
+	padding-right:50px;
+}
+.righttwo a{
+	width:40px;
+	height:40px;
+	line-height:80px;
+	text-align:center;
+	box-shadow:0 0 0 1px black inset;
+	border-radius:20px;
+	margin:10px 10px;
+	transition:box-shadow 0.8s;
+}
+
+.righttwo a:hover{
+	box-shadow:0 0 0 20px white inset;
+}
+.righttwo li a{
+	color:black;
+}

@@ -1,0 +1,72 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.shi{
+	width:1080px;
+	height:739px;
+	background:url(../images/shi.jpg) no-repeat ;
+	margin:0 auto;
+}
+.shi svg{
+	margin-left:360px;
+}
+.shi p{
+	width:580px;
+	margin:0 auto;
+	line-height:40px;
+	font-size:22px;
+	text-align:center;
+	color:#5e4b49;
+}
+.shi .yw{
+	text-align:left;
+}
+.jd{
+	width:980px;
+	height:2600px;
+	margin:0 auto;
+	
+}
+.jd h2{
+	width:980px;
+	text-align:center;
+	line-height:80px;
+	font-size:30px;
+	color:#ffffff;
+	border-bottom:3px solid white;
+}
+.jd dl {
+	width:980px;
+	height:350px;
+}
+.jd dl dt{
+	float:left;
+	margin:20px;
+}
+.jd dd{
+	width:980px;
+	text-align:left;
+	color:white;
+	line-height:25px;
+	font-size:20px;
+	margin-top:5px;
+	line-height:30px;
+	text-indent:2em;
+	padding-top:20px;
+}
+.jd .name{
+	color:#a0523b;
+	font-size:30px;
+	line-height:30px;
+	padding-top:50px;
+}
+
+.last{
+	width:100%;
+	height:200px;
+	background:url(../images/di.jpg) no-repeat ;
+	color:white;
+	text-align:center;
+	line-height:200px;
+}
