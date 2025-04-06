@@ -1,0 +1,101 @@
+<DOCSTYPE html>
+<html>
+<head>
+<link href="css/menu.css" type="text/css" rel="stylesheet"/>
+<link href="css/style3.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="one">
+<div class="nav">
+<ul class="left">
+<li><a href="shouye.html">首页</a></li>
+<li><a href="bihua.html">敦煌壁画</a></li>
+<li><a href="shipin.html">视觉盛宴</a></li>
+<li><a href="#">音乐之美</a></li>
+<li><a href="jingdian.html">步履之美</a></li>
+</ul>
+<ul class="right">
+<li><a href="denglu.html">加入我们</a></li>
+<li><a href="#">播放记录</a></li>
+<li><a href="#">APP下载</a></li>
+</ul>
+</div>
+</div>
+
+<div class="two">
+<div class="navtwo">
+<ul class="lefttwo">
+<li><a href="#">旅行指南</a></li>
+<li><a href="#">个人中心</a></li>
+<li><a href="#">素材上传</a></li>
+</ul>
+<ul class="righttwo">
+<li><a href="#">&#xe65e;</a></li>
+<li><a href="#">&#xe608;</a></li>
+<li><a href="#">&#xf012a;</a></li>
+<li><a href="#">&#xe68e;</a></li>
+</ul>
+</div>
+</div>
+
+<div class="biaoti">
+<svg>
+<text x="0" y="50" font-size="50" font-family="Aa阳关曲" fill="#a08a70" stroke="#4b382e" stroke-width="1">精彩瞬间</text>
+</svg>
+</div>
+
+<div class="five">
+	<video src="video/shipin2.mp4" controls></video>
+	<a href="#"><img src="images/sp1.jpg"></a>
+	<a href="#"><img src="images/sp2.jpg"></a>
+	<a href="#"><img src="images/sp3.jpg"></a>
+	<a href="#"><img src="images/sp4.jpg"></a>
+	<a href="#"><img src="images/sp5.jpg"></a>
+	<hr/>
+</div>
+
+<div class="shipin">
+<h2>截取最精彩的瞬间吧</h2>
+<div class="duiqi">
+<video id="myvideo" src="video/shipin1.mp4" controls></video>
+<br/><br/><br/>
+
+<button id="palypause" onclick="palyPause();">播放</button>
+<button onclick="goBack(5);">快进5s</button>
+<button onclick="goBack(-5);">后退5s</button>
+<button onclick="yl(0.1);">音量+</button>
+<button onclick="yl(-0.1);">音量-</button>
+<button id="xx" onclick="isMuted();">静音</button>
+<script type="text/javascript" src="js/my.js"></script>
+<button id="jt2" onclick="jt2()">截图</button>
+
+<canvas id="22"></canvas><br/>
+
+</div>
+<script>
+var video=document.getElementById("myvideo");
+var canvas=document.getElementById("22");
+var context=canvas.getContext("2d");
+var w,h,ratio;
+video.addEventListener("loadedmetadata",function(){
+ratio=video.videoWidth/video.videoHeight;
+w=video.videoWidth-1200;
+h=parseInt(w/ratio,10);
+canvas.width=w;
+canvas.height=h;
+},false);
+function jt2(){
+context.fillRect(0,0,w,h);
+context.drawImage(video,0,0,w,h);
+}
+</script>
+</div>
+<br/><br/><br/>
+<div class="last">
+<p>Copyright@2023 魅力敦煌 Charming Dunhuang.com 版权问题</p>
+</div>
+</body>
+
+</body>
+</html>
